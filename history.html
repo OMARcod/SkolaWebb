@@ -5,24 +5,33 @@
 
     <title> Internet Historia</title>
     <style>
-        body {background-color: #7e7e7e;
-            color: #000000;}
+        #all {
+            width: 500px;
+            margin: auto;
+            border: 2px dashed #fc4856
+        }
+
+        body {
+            background-color: #7e7e7e;
+            color: #000000;
+        }
+
         ul.demo {
             border-bottom: 6px solid red;
-    background-color: lightgrey;
-               list-style-type: none;
+            background-color: lightgrey;
+            list-style-type: none;
             background: tomato;
             padding: 20px;
         }
 
-        
+
 
         h1 {
-            color: rgb(203, 36, 145)
+            color: rgb(203, 36, 145);
         }
 
         #d {
-            background-color: aquamarine
+            background-color: #ffffff;
         }
 
         section {
@@ -41,6 +50,14 @@
         li a:hover {
             background-color: #555;
             color: white;
+        }
+
+        footer.v {
+            border-bottom: 6px solid #36a8cb;
+            background-color: lightgrey;
+            list-style-type: none;
+            background: #a5a0a0;
+            padding: 1px; }
     </style>
 </head>
 
@@ -48,39 +65,39 @@
 
 
 <body>
-
-    <section>
-        <nav>
-            <ul class="demo">
-                <li><a href="index.html">Smartphones</a> </li>
-                <li> <a href="history.html">Internets historia</a> </li>
-            </ul>
-        </nav>
-    </section>
-
-
-    <h1>Internet Historia</h1>
-    <h2>Lite Fakta:</h2>
-    <section>
-        <article>
-            <ul>
-                <li>
-                    <p id="d">Tim Berners-Lee är han som skapade http-protokollet <br> som idag kallar för World Wide Web (WWW) eller webben.<br> och han var första den som skapade en webbläsare</p>
-                </li>
-                <li>
-                    <p id="d">Och deta här är NeXT-enheten som Tim Berners-Lee använde som den första WWW-servern </p>
-                </li>
-            </ul>
-        </article>
-    </section>
+    <div id="all">
+        <section>
+        
+                <ul class="demo">
+                    <li><a href="index.html">Smartphones</a></li>
+                    <li><a href="history.html">Internets historia</a></li>
+                </ul>
+           
+        </section>
 
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/First_Web_Server.jpg" width="300">
-    <br>
+        <h1>Internet Historia</h1>
+        <h2>Lite Fakta:</h2>
+        <section>
+            <article>
+                <ul id="d">
+                    <li>
+                        <p>Tim Berners-Lee öäär han som skapade http-protokollet <br> som idag kallar för World Wide Web (WWW) eller webben.<br> och han var första den som skapade en webbläsare</p>
+                    </li>
+                    <li>
+                        <p>Och deta här är NeXT-enheten som Tim Berners-Lee använde som den första WWW-servern </p>
+                    </li>
+                </ul>
+            </article>
+        </section>
 
-    <a href="https://sv.wikipedia.org/wiki/Internets_historia" target="_blank">Läs mer här</a>
 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/First_Web_Server.jpg" width="300" alt="gammal dator">
+        <br>
+        <footer class="v">
+        <a href="https://sv.wikipedia.org/wiki/Internets_historia" target="_blank">Läs mer här</a></footer>
 
+    </div>
 
 
 
