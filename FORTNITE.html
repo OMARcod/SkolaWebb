@@ -2,17 +2,24 @@
 <html>
 <head>
     <style>
+        
+        body {
+              background-image: url("https://hdwallsource.com/img/2014/7/matte-black-wallpaper-29553-30272-hd-wallpapers.jpg");
+            color:white;
+        }
         .start {
-            left: 0;
-            right: 0;
+            
+         
             list-style-type: none;
-            margin: 0px 0px;
+         
             padding: 0;
             overflow: hidden;
             background-color: grey;
             border-top: solid;
-            border-width: 15px;
+            border-width: 14px;
             border-color: yellow;
+            font-size: 20px;
+            font-family: monospace;
 
 
 
@@ -67,10 +74,10 @@
 
         #nyheter {
             position: absolute;
-            top: 200px;
+            top: 300px;
             right: 150px;
             width: 250px;
-            height: 500px;
+            height: 800px;
             padding: 20px;
             overflow: hidden;
             background-color: grey;
@@ -79,12 +86,12 @@
             border-color: yellow;
         }
 
-        #top {
+        .top {
             border: solid;
             border-color: grey;
             color: #ffffff;
             width: 92px;
-            height: 50px;
+            height: 40px;
             padding-left: 10px;
             padding-bottom: 15px;
             background-color: #ff6145;
@@ -93,28 +100,42 @@
 
         .newt {
             color: yellow;
-            font-family: fantasy;
+            
             font-size: 30px;
         }
 
         .acolor {
             color: #fafafa;
         }
+        
+        .fontf {
+            font-family: monospace;
+            
+        }
+        
+        #color1 {
+            background-color: #5bbf5b;
+        }
+       
+        #color2 {
+            background-color: #5a5acb;
+        }
+        
     </style>
 </head>
 
 <body>
     <div>
-        <img id="fortnite" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Fortnite.png">
+        <img id="fortnite" src="https://pre00.deviantart.net/1e8d/th/pre/f/2017/303/a/9/fortnite_highlights_watermark_by_flopperdesigns-dbs7tqe.png">
     </div>
     <div class="roder">
         <h6></h6>
     </div>
     <ul class="start">
-        <li><a class="lia" href="#home">Start</a></li>
-        <li><a class="lia" href="#news">News</a></li>
+        <li><a class="lia" href="#home"><b>Start</b></a></li>
+        <li><a class="lia" href="#news"><b>News</b></a></li>
         <li>
-            <a class="lia" href="">Politeker</a>
+            <a class="lia" href=""><b>Politeker</b></a>
         </li>
     </ul>
     <div class="center">
@@ -141,8 +162,8 @@
 
     </div>
     <div id="nyheter">
-        <div id="top">
-            <h2>Nyheter</h2>
+        <div class="top">
+            <h2 class="fontf">Nyheter</h2>
         </div>
         <ul class="newt">
 
@@ -151,7 +172,34 @@
             <li> <a class="acolor" href="#">Historia</a></li>
             <li><a class="acolor" href="#">Omar</a></li>
 
+
         </ul>
+        <div id="color1" class="top">
+            <h2 class="fontf">Iitems</h2>
+        </div>
+        <ul class="newt">
+
+            <li><a class="acolor" href="#">Plunga</a></li>
+            <li><a class="acolor" href="#">Rockets</a></li>
+            <li> <a class="acolor" href="#">Shild</a></li>
+            <li><a class="acolor" href="#">LOL</a></li>
+
+
+        </ul>
+        <div id="color2" class="top">
+            <h2 class="fontf">Misons</h2>
+        </div>
+        <ul class="newt">
+
+            <li><a class="acolor" href="#">Ogada</a></li>
+            <li><a class="acolor" href="#">Find lama</a></li>
+            <li> <a class="acolor" href="#">Win 2 time</a></li>
+            <li><a class="acolor" href="#">Have fun</a></li>
+
+
+        </ul>
+
+
     </div>
 </body>
 </html>
