@@ -2,9 +2,7 @@
 <html>
 <head>
     <style>
-        
-     
-        ul {
+        .start {
             left: 0;
             right: 0;
             list-style-type: none;
@@ -15,22 +13,17 @@
             border-top: solid;
             border-width: 15px;
             border-color: yellow;
-           
-            
+
+
 
         }
-        
 
-        li a {
+        .lia {
             float: left;
-
-        }
-
-        li a {
             display: inline-block;
             color: white;
             text-align: center;
-            padding: 14px 10px;
+            padding: 18px 10px;
             text-decoration: none;
             margin: 0px 0px;
             border-top: solid;
@@ -39,98 +32,126 @@
             width: 50px;
         }
 
-        li a:hover {
-            background-color: red;
+
+
+        .lia:hover {
+            background-color: tomato;
         }
-               
+
         #fortnite {
             width: 300px;
-          
+
         }
+
         #Ne {
             float: left;
             width: 40%;
-            
+
         }
 
         #News {}
 
         .bild {
-            margin: 10px 0px;
-            padding-right: px;
-            border: 0px;
+            margin: 20px 0px;
+            border: 3px;
         }
 
-      .center {
-          margin-top: 40px;
+        .center {
+            margin-top: 40px;
             margin-left: 50px;
-        }   
-        
+        }
+
         #jon {
             width: 400px;
         }
-        
+
         #nyheter {
             position: absolute;
             top: 200px;
             right: 150px;
-            border: 2px solid red;
             width: 250px;
             height: 500px;
             padding: 20px;
-          }
-        
-            background-color: aqua;
+            overflow: hidden;
+            background-color: grey;
+            border-top: solid;
+            border-width: 15px;
+            border-color: yellow;
         }
-        
-        
+
+        #top {
+            border: solid;
+            border-color: grey;
+            color: #ffffff;
+            width: 92px;
+            height: 50px;
+            padding-left: 10px;
+            padding-bottom: 15px;
+            background-color: #ff6145;
+
+        }
+
+        .newt {
+            color: yellow;
+            font-family: fantasy;
+            font-size: 30px;
+        }
+
+        .acolor {
+            color: #fafafa;
+        }
     </style>
 </head>
 
 <body>
-    <div >
+    <div>
         <img id="fortnite" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Fortnite.png">
     </div>
-    <div class="roder"><h6></h6></div>
-    <ul>
-        <li><a href="#home">Start</a></li>
-        <li><a href="#news">News</a></li>
+    <div class="roder">
+        <h6></h6>
+    </div>
+    <ul class="start">
+        <li><a class="lia" href="#home">Start</a></li>
+        <li><a class="lia" href="#news">News</a></li>
         <li>
-            <a href="">Politeker</a>
+            <a class="lia" href="">Politeker</a>
         </li>
     </ul>
     <div class="center">
         <div class="bild"> <img id="jon" src="https://www.turn-on.de/media/cache/article_images/media/cms/2018/03/john-wick-fortnite.jpg?457311"></div>
-        
+
         <div id="Ne">
-            
-            
+
+
 
             <div id="News">
                 <h2>Fortninte in 2018</h2>
                 <p>
-                    Regeringen vill ha nya
-regler för företag som
-ordnar spel och lotterier.
-<br><br>
-Många saker ska ändras.
-Alla företag som ordnar spel
-i Sverige måste ha
-ett särskilt tillstånd.
-Utländska privata företag
-får nu ordna spel i Sverige.
-Men de måste betala
-18 procent skatt på
-pengarna de tjänar.</p>
+                    Regeringen vill ha nya regler för företag som ordnar spel och lotterier.
+                    <br><br> Många saker ska ändras. Alla företag som ordnar spel i Sverige måste ha ett särskilt tillstånd. Utländska privata företag får nu ordna spel i Sverige. Men de måste betala 18 procent skatt på pengarna de tjänar.</p>
                 <p><a href="http://8sidor.se/sverige/2018/04/nya-regler-for-spel/">Läs mer</a></p>
             </div>
+            <div class="bild"> <img id="jon" src="https://www.turn-on.de/media/cache/article_images/media/cms/2018/03/john-wick-fortnite.jpg?457311"></div>
+            <h2>Fortninte in 2018</h2>
+            <p>
+                Regeringen vill ha nya regler för företag som ordnar spel och lotterier.
+                <br><br> Många saker ska ändras. Alla företag som ordnar spel i Sverige måste ha ett särskilt tillstånd. Utländska privata företag får nu ordna spel i Sverige. Men de måste betala 18 procent skatt på pengarna de tjänar.</p>
+            <p><a href="http://8sidor.se/sverige/2018/04/nya-regler-for-spel/">Läs mer</a></p>
         </div>
+
     </div>
-<div id="nyheter"><h2>Nyheter</h2>
-      <ol>
-           <li>o</li>
-    <li>h</li>
-    <li>o</li>
-    <li>o</li></ol></div>
+    <div id="nyheter">
+        <div id="top">
+            <h2>Nyheter</h2>
+        </div>
+        <ul class="newt">
+
+            <li><a class="acolor" href="#">Nti school </a></li>
+            <li><a class="acolor" href="#">Matte 2c</a></li>
+            <li> <a class="acolor" href="#">Historia</a></li>
+            <li><a class="acolor" href="#">Omar</a></li>
+
+        </ul>
+    </div>
 </body>
 </html>
