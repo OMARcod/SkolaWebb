@@ -47,23 +47,26 @@
      display: inline-block;
      color: white;
      text-align: center;
-     padding: 18px 10px;
+     padding: 18px 19px;
      text-decoration: none;
      margin: 0px 0px;
      border-top: solid;
      border-top: yellow;
      margin-left: 50px;
-     width: 50px;
+     width: 80px;
  }
 
 
 
-   ul.start a:hover {
+ ul.start a:hover,
+ a:active,
+ a:focus {
      background-color: tomato;
  }
 
  li a {
      color: #ffffff;
+     font-size: 20px;
  }
 
  #fortnite {
@@ -90,8 +93,13 @@
      margin-left: 110px;
  }
 
- #jon {
+ .jon {
      width: 400px;
+ }
+
+ iframe {
+     width: 400px;
+     height: 230px;
  }
 
  #nyheter {
@@ -139,7 +147,7 @@
         }
 */
 
- div h2 {
+ h2 {
      font-family: monospace;
  }
 
