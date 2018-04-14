@@ -3,10 +3,12 @@ zoom: 60%;
 }
 
 
+/*
 body {
 display: flex;
 justify-content: center;
 }
+*/
 /*
 img {
     width: 100%;
@@ -28,7 +30,7 @@ ul li a {
 
 ul {
     list-style-type:none;
-    margin: 0;
+    margin-right: 53%;
     padding:0;
     overflow: hidden;
     background-color: #333;
@@ -38,9 +40,10 @@ ul {
 ul li a:hover {
     background-color: aqua
 }
+/*
 
 .float {
     
     position: absolute;
     top:29%;
-}
+}*/
