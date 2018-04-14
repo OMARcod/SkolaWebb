@@ -28,30 +28,19 @@
 
 
 
- li.o a:hover,
+ ul.start li a:hover,
  a:active,
  a:focus {
      background-color: tomato;
  }
 
 
-/*
- a.try {
-     display: block;
-     color: white;
-     text-align: center;
-  
-     padding-right: 40px;
-     text-decoration: none;
-     float: left;
- }
-*/
 
- li.o {
+ ul.start li {
      float: left;
  }
 
- li.o a {
+ ul.start li a {
     
      display: block;
      color: white;
