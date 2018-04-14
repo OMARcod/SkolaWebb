@@ -1,0 +1,46 @@
+html {
+zoom: 90%;
+}
+
+
+body {
+display: flex;
+justify-content: center;
+}
+/*
+img {
+    width: 100%;
+  height: 190px;
+}*/
+ 
+ul li { 
+float:left;
+}
+
+ul li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 94px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+ul li a:hover {
+    background-color: aqua
+}
+
+.float {
+    
+    position: absolute;
+    top:36%;
+}

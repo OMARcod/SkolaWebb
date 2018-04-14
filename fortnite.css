@@ -7,6 +7,7 @@
      padding-bottom: 900px;
      min-height: 100%;
      font-family: "Helvetica Neue", Arial, sans-serif;
+     
  }
 
  .start {
@@ -103,13 +104,13 @@
  }
 
  .top {
+     
+    text-align: center;
      border: solid;
      border-color: grey;
      color: #ffffff;
-     width: 92px;
-     height: 40px;
-     padding-left: 10px;
-     padding-bottom: 15px;
+     width: 80px;
+     padding-left: 3px;
      background-color: #ff6145;
 
  }
@@ -120,24 +121,13 @@
      font-size: 30px;
  }
 
- /*
-        .acolor {
-            color: #fafafa;
-        }
-*/
 
- /*
-        .fontf {
-            font-family: monospace;
-
-        }
-*/
 
  h2 {
      font-family: monospace;
  }
 
- /*div .top{  }*/
+
 
  #color1 {
      background-color: #5bbf5b;
