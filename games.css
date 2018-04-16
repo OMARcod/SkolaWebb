@@ -10,6 +10,11 @@
      
  }
 
+#linee { 
+padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
+}
+
  .start {
 
 
@@ -64,6 +69,8 @@
  #Ne {
      float: left;
      width: 25%;
+     padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
 
 
  }
@@ -117,7 +124,8 @@
 
  .newt {
      color: yellow;
-
+padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
      font-size: 30px;
  }
 
