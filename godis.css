@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .logo {
@@ -66,7 +67,7 @@
 .boxes {
     padding: 30px;
     float: left;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
     border: 3px solid grey;
     text-align: center;
     width: calc(29% - 66px);
@@ -90,3 +91,5 @@
     text-align: left;
     font-size: 30px;
 }
+
+
