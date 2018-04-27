@@ -9,7 +9,7 @@
     display: block;
     width: 200px;
     position: absolute;
-    left: 45%;
+    left: 40%;
     top: 0;
 
 }
@@ -30,10 +30,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-     position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-
+    
 
 }
 
@@ -41,7 +38,7 @@
 
     display: inline-block;
     position: relative;
-    left: 40%;
+    left: 35%;
 
 }
 
@@ -74,7 +71,7 @@
     background-color: #ffffff;
     border: 3px solid grey;
     text-align: center;
-    width: calc(29% - 66px);
+    width: calc(27% - 66px);
     margin: 30px;
 }
 
@@ -84,7 +81,7 @@
 }
 
 .boxes img {
-    width: 160px;
+    width: 60%;
    
     
 }
@@ -93,7 +90,7 @@
      border-top: 2px solid black;
     margin-top: 60px;
     text-align: left;
-    font-size: 30px;
+    font-size: 100%;
 }
 
 
