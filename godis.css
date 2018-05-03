@@ -4,9 +4,39 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Verdana, sans-serif;
 
+}
+
+ #map {
+           width: 50%;
+           height: 500px;
+           position: absolute;
+           left: 40%;
+           margin-top: 30px;
+     
+         
+       }
+
+.godistext {
+    position: relative;
+    margin-top: 30px;
+    
+}
+.txtgodis {
+    
+    padding: 30px;
+    float: left;
+    margin-left: 30px;
+}
+
+.imginfo {
+    
+    width: 100%;
+    height: 500px;
+    
 }
 
 /* Slideshow container */
@@ -156,7 +186,7 @@ body {
     margin-top: 30px;
 
 
-    padding: 30px;
+    padding: 20px;
 }
 
 .boxes {
@@ -165,7 +195,7 @@ body {
     background-color: #ffffff;
     border: 3px solid grey;
     text-align: center;
-    width: calc(27% - 66px);
+    width: calc(33% - 66px);
     margin: 30px;
 }
 
@@ -188,10 +218,33 @@ body {
 }
 
 iframe { 
+    margin-top: 30px;
 display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
     
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom:0;
+  left: 0;
+  padding: 1rem;
+  background-color: #919191;
+  text-align: center;
+    top:200px;
+}
+
+.foorer1 {
+   top: 650px;
+    text-align: center;
+    
+}
+
+.fotertxt
+{
+   margin-right: 30%;
 }
