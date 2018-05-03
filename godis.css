@@ -186,3 +186,12 @@ body {
     text-align: left;
     font-size: 100%;
 }
+
+iframe { 
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    
+}
