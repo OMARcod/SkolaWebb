@@ -11,20 +11,22 @@
             font-family: Verdana, sans-serif;
         }
 
-        .mySlides {
-            display: none;
-        }
 
+
+        /*
         img {
             vertical-align: middle;
+              
         }
+*/
 
         /* Slideshow container */
 
         .slideshow-container {
-            max-width: 1000px;
+            max-width: 200px;
             position: relative;
             margin: auto;
+
         }
 
 
@@ -53,6 +55,35 @@
             animation-name: fade;
             animation-duration: 1.5s;
         }
+
+
+        .imgh {
+
+
+            vertical-align: middle;
+
+
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /*
+        .imgline {
+            display: inline-block;
+        }
+*/
 
         @-webkit-keyframes fade {
             from {
@@ -85,25 +116,55 @@
 <body>
 
     <div class="slideshow-container">
+        <div class="row">
 
-        <div class="mySlides fade">
+            <div class="mySlides fade">
 
-            <img src="img_nature_wide.jpg" style="width:100%">
+                <div class="column ">
+                    <img class="imgh" src="http://logos-download.com/wp-content/uploads/2016/12/Candy_King_CandyKing_logo.png" style="width:100%">
 
+                </div>
+
+                <div class="column ">
+                    <img class="imgh" src="http://logos-download.com/wp-content/uploads/2016/12/Candy_King_CandyKing_logo.png" style="width:100%">
+
+                </div>
+
+                <div class="column ">
+                    <img class="imgh" src="http://logos-download.com/wp-content/uploads/2016/12/Candy_King_CandyKing_logo.png" style="width:100%">
+
+                </div>
+
+
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyjarbozeman.com/wp-content/themes/thecandyjar/images/candy-jar-logo-large.png" style="width:100%">
+                </div>
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyjarbozeman.com/wp-content/themes/thecandyjar/images/candy-jar-logo-large.png" style="width:100%">
+                </div>
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyjarbozeman.com/wp-content/themes/thecandyjar/images/candy-jar-logo-large.png" style="width:100%">
+                </div>
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyrific.com/res/uploads/brands/logos/color/AirHeads-Logo.png" style="width:100%">
+                </div>
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyrific.com/res/uploads/brands/logos/color/AirHeads-Logo.png" style="width:100%">
+                </div>
+                <div class="column ">
+                    <img class="imgh" src="http://www.candyrific.com/res/uploads/brands/logos/color/AirHeads-Logo.png" style="width:100%">
+                </div>
+
+            </div>
         </div>
-
-        <div class="mySlides fade">
-
-            <img src="img_fjords_wide.jpg" style="width:100%">
-
-        </div>
-
-        <div class="mySlides fade">
-
-            <img src="img_mountains_wide.jpg" style="width:100%">
-
-        </div>
-
     </div>
     <br>
 
