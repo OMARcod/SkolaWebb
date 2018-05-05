@@ -5,9 +5,27 @@
 }
 
 
+
 body {
     font-family: Verdana, sans-serif;
+    background-color: #dddddd;
 
+}
+
+.icon {
+    float:right;
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+   
+   
+}
+
+.icon:hover {
+   
+    background-color: aqua;
+  
+    
 }
 
  #map {
@@ -22,20 +40,23 @@ body {
 
 .godistext {
     position: relative;
-    margin-top: 30px;
-    
+    margin-top: 0px;
+    color: #ff0045;
 }
 .txtgodis {
-    
+    font-family: 'Bree Serif', serif;
     padding: 30px;
     float: left;
     margin-left: 30px;
+    font-size: 20px;
+     color: #fbffff;
 }
+
 
 .imginfo {
     
     width: 100%;
-    height: 500px;
+    height: 600px;
     
 }
 
@@ -79,13 +100,17 @@ body {
 
     vertical-align: middle;
     margin-top: 90px;
+/*
+    padding-right:50px;
+     padding-left:50px;
+*/
 
 }
 
 .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: calc(33.33%);
+/*    padding:50px;*/
 }
 
 /* Clearfix (clear floats) */
@@ -131,17 +156,17 @@ body {
 .logo {
     /*    margin: auto;*/
     display: block;
-    width: 200px;
+    width: 10%;
     position: absolute;
-    left: 40%;
+    left: 42%;
     top: 0;
 
 }
 
 .grey {
 
-    background-color: gray;
-    height: 300px;
+    background-image: url(http://static.wixstatic.com/media/f4eff4_c01d93f9f1f6437aa9c6fbd2b69365b7.gif);
+    height: 410px;
     margin: 0;
     padding: 0;
 
@@ -153,7 +178,9 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ea06ac;
+  
+ font-family: Chewy;
 
 
 }
@@ -163,6 +190,7 @@ body {
     display: inline-block;
     position: relative;
     left: 35%;
+/*    font-family: Chewy;*/
 
 }
 
@@ -172,15 +200,37 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    
+    font-size: 50px;
+   
+    
 
 
 }
 
 .navbar li a:hover {
-    background-color: #111;
+    background-color: #fd73e3;
 
 }
+
+
+
+.mit { 
+    position: relative;
+    right: 50px;
+    
+}
+
+
+.mito {
+    position: relative;
+    left: 50px;
+    }
+
+.mit2 {
+    position: relative;
+}
+
 
 .items {
     margin-top: 30px;
@@ -193,10 +243,13 @@ body {
     padding: 30px;
     float: left;
     background-color: #ffffff;
-    border: 3px solid grey;
+    border-style: outset;
+    border-width: 7px;
+    border-color: #db1470;    
     text-align: center;
-    width: calc(33% - 66px);
+   width: calc(33% - 66px);
     margin: 30px;
+   border-radius: 12px;
 }
 
 .clear {
@@ -214,11 +267,13 @@ body {
     border-top: 2px solid black;
     margin-top: 60px;
     text-align: left;
-    font-size: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: chewy
 }
 
 iframe { 
-    margin-top: 30px;
+    margin-top: 140px;
 display: block;
     margin-left: auto;
     margin-right: auto;
