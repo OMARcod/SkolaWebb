@@ -10,7 +10,7 @@
 
 <body>
     <div class="grey"></div>
-    <img src="http://www.mascotdesigngallery.com/wp/wp-content/uploads/2014/04/Candy_Person_110.png" class="logo">
+    <img src="https://partyflock.nl/images/organization/4439_474x344_359597/Candyshop.png" class="logo">
 
 
     <ul class="navbar">
@@ -53,15 +53,15 @@ Box 613<br>
     <script>
     function initMap() {
         var location = {lat: 55.604981, lng: 13.003822};
-        var map = new google.maps.Map(document.getElementById("map"), {zoom: 4,
+        var map = new google.maps.Map(document.getElementById("map"), {zoom: 7,
          center: location });
         
         var marker = new google.maps.Marker({
-            position: location,
-            map: map
-        });
-        
-    }
+    position: location,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
+}
     </script>
     <script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDTE9kLp5cx-VDWCRkyoAZcm-MI36rfFKY&callback=initMap"  type="text/javascript"></script>
     
