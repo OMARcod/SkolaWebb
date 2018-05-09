@@ -9,6 +9,7 @@
 body {
     font-family: Verdana, sans-serif;
    background-color: #3b3737;
+    font-family: 'Bangers', cursive;
         
 
 }
@@ -18,7 +19,7 @@ body {
     position: relative;
     bottom: 20px;
     font-size: 30px;
-   
+    color:green;
    
 }
 
@@ -57,7 +58,7 @@ body {
 .imginfo {
     
     width: 100%;
-    height: 600px;
+    height: 400px;
     
 }
 
@@ -170,7 +171,7 @@ body {
     width: 25%;
     position: absolute;
     left: 37%;
-    bottom: 500px;
+    bottom: 64%;
     overflow: hidden;
 
 }
@@ -178,7 +179,7 @@ body {
 .grey {
 
     background-image: url(https://images.unsplash.com/photo-1519686997393-7bdb73d6c54d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4a032138a017a8a1f104622fe4b52cda&auto=format&fit=crop&w=1050&q=80);
-    height: 300px;
+    height: 220px;
     margin: 0;
     padding: 0;
      background-repeat:round;
@@ -192,9 +193,10 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ea06ac;
+    background-color: #ff0045;
+    
   
- font-family: Chewy;
+ 
 
 
 }
@@ -215,7 +217,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     
-    font-size: 50px;
+    font-size: 40px;
    
     
 
@@ -223,7 +225,7 @@ body {
 }
 
 .navbar li a:hover {
-    background-color: #fd73e3;
+    background-color: #0cc8ea;
 
 }
 
@@ -231,18 +233,19 @@ body {
 
 .mit { 
     position: relative;
-    right: 50px;
+    right: 60px;
     
 }
 
 
 .mito {
     position: relative;
-    left: 50px;
+    left: 30px;
     }
 
 .mit2 {
     position: relative;
+    right: 20px;
 }
 
 
@@ -270,7 +273,7 @@ body {
 }
 /* höjden*/
 .boxes div {
-    height: 230px;
+    height: 130px;
 }
 
 
