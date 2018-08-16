@@ -1,0 +1,29 @@
+.mitten {
+    text-align: center;
+}
+
+
+
+#info  {
+    width: 10%;
+ border : 3px solid red;
+    padding: 2px;
+    position: absolute;
+    top:70%;
+    margin-left: 70px;
+    text-align: center;
+}
+}
+.center {
+
+    margin: auto;
+  width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+iframe {
+    display:block;
+    margin: auto;
+}
