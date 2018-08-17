@@ -25,6 +25,7 @@ background-color: black;
     border: 3px solid tomato;
     padding: 30px;
 color: white;
+    height: 500px
 }
 
 iframe {
@@ -38,25 +39,27 @@ iframe {
     
 }
 
-#burg {max-width: 500px;}
+#burg {max-width: 600px;}
 
 
 .imgall { 
 float: right;
   width: 60px;  
 }
-#pizbur {
-    width: 120px
+
+.pizbur {
+    width: 120px;
 }
+
+#panana {max-width: 800px;}
+#crab {max-width: 260px;}
+#hart {max-width: 290px;}
 
 
 h3 {margin-bottom: 30px;}
 .move {
     
-    max-width: 100px;
+    max-width: 200px;
     padding: 30px;
 }
 
-.allimg {
-    margin-top: 200px;
-}
