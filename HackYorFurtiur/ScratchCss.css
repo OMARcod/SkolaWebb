@@ -1,33 +1,30 @@
+.midle {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
 .mitten {
     text-align: center;
 }
 
+#info {
+    border:2px solid blue;
+    width: 100px
+}
 
-
-#info  {
-    width: 10%;
- border : 3px solid red;
-    padding: 2px;
-    position: absolute;
-    top:77%;
-    margin-left: 23.6%;
+.bigbox {
     
+    border: 3px solid red;
+    padding: 30px
 }
 
-.center {
+    
 
-    margin: auto;
-  width: 50%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-    margin-top: 70px;
-    height: 400px;
-}
 
-iframe {
-    display:block;
-    margin: auto;
-}
+
+
+
 
 img {
     
