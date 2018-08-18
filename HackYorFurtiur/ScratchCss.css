@@ -1,6 +1,7 @@
-body { 
-background-color: black;
+body {
+    background-color: black;
 }
+
 .midle {
     max-width: 700px;
     margin: auto;
@@ -8,58 +9,72 @@ background-color: black;
     padding: 10px;
     background: #484444;
 }
+
 .mitten {
     text-align: center;
     color: white;
 }
 
 #info {
-    border:2px solid tomato;
+    border: 2px solid tomato;
     width: 100px;
     color: white;
     background: tomato;
 }
 
 .bigbox {
-    
+
     border: 3px solid tomato;
     padding: 30px;
-color: white;
+    color: white;
     height: 500px
 }
 
 iframe {
-    
+
     margin: auto;
     display: block;
     margin-bottom: 20px;
 }
+
 .left {
-    float:left;
-    
+    float: left;
+
 }
 
-#burg {max-width: 600px;}
+#burg {
+    max-width: 600px;
+}
 
 
-.imgall { 
-float: right;
-  width: 60px;  
+.imgall {
+    float: right;
+    width: 60px;
 }
 
 .pizbur {
     width: 120px;
 }
 
-#panana {max-width: 800px;}
-#crab {max-width: 260px;}
-#hart {max-width: 290px;}
+#panana {
+    max-width: 800px;
+}
+
+#crab {
+    max-width: 360px;
+}
+
+#hart {
+    max-width: 290px;
+}
 
 
-h3 {margin-bottom: 30px;}
+h3 {
+    margin-bottom: 30px;
+}
+
 .move {
-    
+
     max-width: 200px;
     padding: 30px;
 }
-
