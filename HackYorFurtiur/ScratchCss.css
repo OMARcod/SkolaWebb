@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     color:white;
     font-family: 'Jua', sans-serif;
 }
@@ -9,7 +9,7 @@ body {
     margin: auto;
     background: white;
     padding: 10px;
-    background: #484444;
+    background: #22233e;
     
 }
 
@@ -95,3 +95,5 @@ h3 {
     border-radius: 5px;
 
 }
+a {
+    color: white;}
