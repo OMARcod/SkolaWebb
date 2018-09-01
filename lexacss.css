@@ -49,16 +49,18 @@ main article {
 
 article {
     padding: 10px;
+
 }
 
 #left {
-    background: pink;
+    background: #eee;
     flex: 1.5;
 
 }
 
 #right {
-    background: #ff5270;
+    background: white;
+    ;
     flex: 1;
 }
 
@@ -80,6 +82,58 @@ section h3 {
 
 section p {
     color: white;
+}
+
+#img1 {
+    background-image: url(venedig.jpg);
+    padding-top: 80px;
+    background-size: 600px;
+
+
+
+}
+
+#img2 {
+    margin-top: 30px;
+    background-image: url(sangimignano.jpg);
+    padding-top: 80px;
+    background-size: 600px;
+
+
+
+}
+
+.rbga {
+    padding: 10px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    font-size: 20px
+}
+
+.black {
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+    box-shadow: 6px 6px 10px grey;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr .g {
+    background-color: #cccccc;
+    color: white;
+    width: 15%
+}
+
+tr:nth-child(even) {
+    background-color: #dedede;
 }
 
 /*
