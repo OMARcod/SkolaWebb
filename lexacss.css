@@ -15,17 +15,22 @@ header h1 {
     color: #fc3;
     text-align: center;
     margin-top: 0;
-    padding: 20px;
+    padding-top: 30px;
+    
 
 }
 
 header h2 {
     color: #eee;
     text-align: center;
+    padding-bottom: 20px
+    
 }
 
 nav {
     background: #555;
+   
+  
 }
 
 nav a {
@@ -34,6 +39,8 @@ nav a {
     background: #444;
     color: #fc3;
     text-decoration: none;
+    width: 10%;
+     text-align: center;
 }
 
 nav a:hover {
@@ -121,7 +128,7 @@ b {
 }
 
 span {
-    border: solid 2px #fc3;
+    border: solid 1.4px #fc3;
     padding: 5px;
 }
 
@@ -131,8 +138,9 @@ span {
 
 table {
     border-collapse: collapse;
-    width: 30%;
+    width: 27%;
     box-shadow: 6px 6px 10px grey;
+    border:solid 1px #afaeae;
 }
 
 td {
@@ -143,7 +151,7 @@ td {
 tr .g {
     background-color: #cccccc;
     color: white;
-    width: 15%
+    width: 20%
 }
 
 tr:nth-child(even) {
