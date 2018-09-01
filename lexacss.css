@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    
 }
 
 header {
@@ -113,6 +114,19 @@ section p {
 
 .black {
     color: black;
+}
+
+b {
+    font-size: 25px;
+}
+
+span {
+    border: solid 2px #fc3;
+    padding: 5px;
+}
+
+#left h2{
+    margin-top: 50px;
 }
 
 table {
