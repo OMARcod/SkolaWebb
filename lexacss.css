@@ -16,6 +16,7 @@ header h1 {
     text-align: center;
     margin-top: 0;
     padding-top: 30px;
+    letter-spacing: 5px;
     
 
 }
@@ -95,8 +96,8 @@ section p {
 }
 
 #img1 {
-    background-image: url(venedig.jpg);
-    padding-top: 80px;
+    background: url(venedig.jpg);
+    padding: 80px 10px 10px 10px;
     background-size: 600px;
 
 
@@ -105,8 +106,8 @@ section p {
 
 #img2 {
     margin-top: 30px;
-    background-image: url(sangimignano.jpg);
-    padding-top: 80px;
+    background: url(sangimignano.jpg);
+    padding: 80px 10px 10px 10px;
     background-size: 600px;
 
 
@@ -137,10 +138,14 @@ span {
     margin-top: 50px;
 }
 
+h2 + p:first-letter{
+    font-size: 1.4em;
+}
+
 table {
     border-collapse: collapse;
     width: 27%;
-    box-shadow: 6px 6px 10px grey;
+    box-shadow: 6px 6px 10px #fd0000;
     border:solid 1px #afaeae;
 }
 
