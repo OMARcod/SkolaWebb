@@ -36,3 +36,11 @@ body {
         table {
             width: 100%;
         }
+
+th + th{
+    color:red;
+}
+
+th:first-of-type,td + td{
+    color:green;
+}
