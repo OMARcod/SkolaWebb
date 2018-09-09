@@ -1,0 +1,28 @@
+div {
+            display: flex;
+        }
+
+        section {
+
+            flex: 1;
+        }
+
+        table,
+        th,
+        td {
+
+
+            border-collapse: collapse;
+            border: solid 2px black;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
