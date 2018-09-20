@@ -1,0 +1,6 @@
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.exe.config
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.exe
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\bin\Debug\Multiplikationstabell.pdb
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.csproj.CoreCompileInputs.cache
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.exe
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\Multiplikationstabell\Multiplikationstabell\obj\Debug\Multiplikationstabell.pdb
