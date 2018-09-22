@@ -1,0 +1,7 @@
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\bin\Debug\test.exe.config
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\bin\Debug\test.exe
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\bin\Debug\test.pdb
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\obj\Debug\test.exe
+C:\Users\omar\Documents\GitHub\SkolaWebb\C#\test\test\obj\Debug\test.pdb

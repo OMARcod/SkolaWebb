@@ -1,0 +1,158 @@
+ body {
+
+     background-image: url("https://hdwallsource.com/img/2014/7/matte-black-wallpaper-29553-30272-hd-wallpapers.jpg");
+     color: white;
+     position: relative;
+
+     padding-bottom: 900px;
+     min-height: 100%;
+     font-family: "Helvetica Neue", Arial, sans-serif;
+     
+ }
+
+#linee { 
+padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
+}
+
+ .start {
+
+
+     list-style-type: none;
+     margin: 30;
+     padding: 0px;
+     padding-left: 100px;
+     overflow: hidden;
+     background-color: #333;
+
+
+     border-top: solid;
+     border-width: 15px;
+     border-color: yellow;
+     font-family: monospace
+ }
+
+
+
+ ul.start li a:hover,
+ a:active,
+ a:focus {
+     background-color: tomato;
+ }
+
+
+
+ ul.start li {
+     float: left;
+ }
+
+ ul.start li a {
+    
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 10px 30px;
+     text-decoration: none;
+
+ }
+
+ li a {
+     color: #ffffff;
+     font-size: 20px;
+ }
+
+ #fortnite {
+     width: 300px;
+
+ }
+
+ #Ne {
+     float: left;
+     width: 25%;
+     padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
+
+
+ }
+
+
+
+ .bild {
+     margin: 20px 0px;
+     border: 3px;
+ }
+
+ .center {
+     margin-top: 40px;
+     margin-left: 110px;
+ }
+
+ .jon {
+     width: 400px;
+ }
+
+ iframe {
+     width: 400px;
+     height: 230px;
+ }
+
+ #nyheter {
+     position: absolute;
+     top: 250px;
+     right: 300px;
+     width: 250px;
+     height: 800px;
+     padding: 20px;
+     overflow: hidden;
+     background-color: grey;
+     border-top: solid;
+     border-width: 15px;
+     border-color: yellow;
+ }
+
+ .top {
+     
+    text-align: center;
+     border: solid;
+     border-color: grey;
+     color: #ffffff;
+     width: 80px;
+     padding-left: 3px;
+     background-color: #ff6145;
+
+ }
+
+ .newt {
+     color: yellow;
+padding-bottom: 13px;
+border-bottom: 2px solid #f7f7f7 ;
+     font-size: 30px;
+ }
+
+
+
+ h2 {
+     font-family: monospace;
+ }
+
+
+
+ #color1 {
+     background-color: #5bbf5b;
+ }
+
+ #color2 {
+     background-color: #5a5acb;
+ }
+
+ footer {
+
+
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     padding: 1rem;
+     background-color: #959595;
+     text-align: center;
+ }
