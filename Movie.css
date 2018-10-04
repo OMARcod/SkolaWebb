@@ -1,0 +1,41 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        "A A A B B"
+}
+.A {
+    background-image: url(http://www.sompaisoscatalans.cat/simage/102/1025485/gta-v-wallpaper-4k.jpg);
+background-size: cover;
+background-position: center; 
+    height: 300px;
+    grid-area: A;
+}
+.B {
+    background-image: url(https://i.ytimg.com/vi/zgd6yAJmN90/maxresdefault.jpg);
+background-size: cover;
+background-position: center; 
+    height: 300px;
+    grid-area: B;
+}
+.C {
+    background-image: url(http://www.sompaisoscatalans.cat/simage/102/1025485/gta-v-wallpaper-4k.jpg);
+background-size: cover;
+background-position: center; 
+    height: 300px;
+    grid-area: C;
+}
+.D {
+    background-image: url(http://www.sompaisoscatalans.cat/simage/102/1025485/gta-v-wallpaper-4k.jpg);
+background-size: cover;
+background-position: center; 
+    height: 300px;
+    grid-area: D;
+}
+.E {
+    background-image: url(http://www.sompaisoscatalans.cat/simage/102/1025485/gta-v-wallpaper-4k.jpg);
+background-size: cover;
+background-position: center; 
+    height: 300px;
+    grid-area: E;
+}
