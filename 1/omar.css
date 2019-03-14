@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "A B"
+        "C D"
+    
+
+}
+
+.A {
+    background-image: url("summer.jpg");
+    grid-area: A;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.B {
+    grid-area: B;
+    background-image: url("spring.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.C {
+    grid-area: C;
+    background-image: url(winter.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.D {
+    grid-area: D;
+    background-image: url(omar.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    padding: 1em;  
+background: rgba(255,255,255,.8);
+margin-bottom: 1em;
+font: 1em verdana, sans-serif; 
+text-decoration: none; 
+border-left: 30px solid darkblue; 
+color: #222;
+    display:block;
+}
+a:hover{
+    border-left: 30px solid lightblue; 
+background: white; 
+border-left: 30px solid #fc3; 
+}

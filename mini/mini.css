@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color: #a5d0d6;
+}
+div{
+  background-color: #000000;
+  width: 400px;
+  color: #393b5c;
+  font-family: verdana;
+  font-size: 70px;
+  text-align: center;
+  margin: 180px auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+h1 {
+  font-family: Raleway, sans-serif;
+  padding-top: 30px;
+}

@@ -2,7 +2,9 @@ section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-        "A A A B B"
+        "A A B B B"
+        "C C C D D"
+        "E E E E E"
 }
 .A {
     background-image: url(http://www.sompaisoscatalans.cat/simage/102/1025485/gta-v-wallpaper-4k.jpg);
